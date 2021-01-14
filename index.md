@@ -18,3 +18,8 @@ author_profile: true
 <sub>I find the fields of Autonomous Robotics, Computer Vision and AI fascinating. For the past three years, I have been working in several projects related to _Perception in Robots, Simultaneous Localization & Mapping (SLAM), Path Planning, Classical & DL-based computer vision_ and _Multi-robot systems_. Furthermore, I am also interested in working in research projects on semantic understanding of environment, Graph Neural Networks, GANs and Perception-aware motion planning in robots, in future.</sub>
 
 <sub>I am currently working as an Undergraduate Researcher with the **Autonomous Robots Lab, NTNU** under Prof. Kostas Alexis. I was formerly the **Sub-Coordinator** of the **Electronics & Robotics Club** of BITS Goa.</sub>
+
+<br/>
+<hr style="border:1px solid gray"/>
+
+![ERC](assets/images/logos/all_logos.png)
