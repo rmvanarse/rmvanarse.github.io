@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Rishikesh Vanarse"
 title_separator          : "-"
-subtitle                 : "Autonomous Robotics | Computer Vision | Artificial Intelligence"
+subtitle                 : "Computer Science, BITS Pilani Goa"
 name                     : "Rishikesh Vanarse"
 description              : "Work in progress... Please come back later :)"
 url                      : # "https://rmvanarse.github.io"
@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "rmvanarse/rmvanarse.github.io"
 teaser                   : /assets/images/bog_end_sea.jpg
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Rishikesh Vanarse"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
