@@ -260,6 +260,10 @@ compress_html:
   ignore:
     envs: development
 
+#CUSTOM: Collections
+collections:
+  projects:
+    output: true
 
 # Defaults
 defaults:
@@ -285,3 +289,15 @@ defaults:
       comments: # true
       share: true
       related: true
+
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: false
+      share: true
+
+
+

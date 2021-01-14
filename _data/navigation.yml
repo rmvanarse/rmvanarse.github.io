@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "About"
-    url: https://rmvanarse.github.io/about/
+  - title: "Home"
+    url: /
   - title: "Projects"
-    url: https://rmvanarse.github.io/projects
+    url: /projects/
   - title: "Blog"
-    url: https://rmvanarse.github.io/blog
+    url: /blog/
   - title: "CV"
     url: https://drive.google.com/file/d/1XRPRo3xVD5GGetBr3gqNPks20icHLIlV/view?usp=sharing
 
