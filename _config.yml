@@ -269,6 +269,8 @@ collections:
       - trotbot.md
       - swarmbots.md
       - thesis.md
+      - object_tracking.md
+      - multispectral.md
 
 # Defaults
 defaults:

@@ -28,4 +28,10 @@ var store = [{
         "tags": [],
         "url": "/projects/object_tracking/",
         "teaser": "/assets/images/projects/cogneuro_dp.png"
+      },{
+        "title": "Multispectral Image Registration",
+        "excerpt":"Name is ..   content…                                                                                                                                Project: caption…       content..   Role in  Project: Role…   [GitHub]  ","categories": [],
+        "tags": [],
+        "url": "/projects/multispectral/",
+        "teaser": "/assets/images/projects/farm.png"
       }]
