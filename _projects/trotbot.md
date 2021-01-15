@@ -14,7 +14,7 @@ gallery:
     image_path: /assets/images/projects/trotbot_dp.jpeg
     alt: "placeholder image 3"
 ---
-<sub>**Trotbot** \[[GitHub](http://github.com/erc-bpgc/Trotbot)\] is an autonomous omnidirectional ground robot, designed to serve as an indoor delivery robot. It is able to autonomously navigate around dynamic obstacles and find its way to a given waypoint.</sub>
+<sub>**Trotbot** is an autonomous omnidirectional ground robot, designed to serve as an indoor delivery robot. It is able to autonomously navigate around dynamic obstacles and find its way to a given waypoint.</sub>
 
 <sub>The robot uses a 2D LIDAR for obstacle detection and a RealSense sensor for visual-inertial localization. The planner uses Rapidly Exploring Random Trees (RRT) for local planning and Dijkstra for global planning. The software stack for dynamic path planning has been implemented with ROS, and the processing is done on an on-board NUC.</sub>
 
@@ -23,4 +23,4 @@ gallery:
 
 <sub>_**Role in  Project:** Navigation (Path Planning, Localization, Obstacle detection, dynamic obstacle avoidance)_</sub>
 
-<sub></sub>
+<sub>\[[**GitHub**](http://github.com/erc-bpgc/Trotbot)\]</sub>

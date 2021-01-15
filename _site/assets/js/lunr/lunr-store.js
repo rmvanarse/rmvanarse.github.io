@@ -6,13 +6,13 @@ var store = [{
         "teaser": "http://localhost:4000/assets/images/projects/modbot_dp.jpeg"
       },{
         "title": "Swarmbots",
-        "excerpt":"Swarmbots [GitHub] is a project on …   content…                                                                                                                                Swarmbots: caption…          Role in  Project: Project Lead, …     ","categories": [],
+        "excerpt":"Swarmbots is a project on development of algorithms for automation of a swarm of autonomous mobile robots. The robots perform various tasks through ‘collective decision making’. Multi-robot systems become increasingly complex with increase in the numbre of robots. In this project, the system is entirely decentralized. Each robot knows only...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/projects/swarmbots/",
         "teaser": "http://localhost:4000/assets/images/projects/swarmbots_dp.jpeg"
       },{
         "title": "Trotbot",
-        "excerpt":"Trotbot [GitHub] is an autonomous omnidirectional ground robot, designed to serve as an indoor delivery robot. It is able to autonomously navigate around dynamic obstacles and find its way to a given waypoint. The robot uses a 2D LIDAR for obstacle detection and a RealSense sensor for visual-inertial localization. The...","categories": [],
+        "excerpt":"Trotbot is an autonomous omnidirectional ground robot, designed to serve as an indoor delivery robot. It is able to autonomously navigate around dynamic obstacles and find its way to a given waypoint. The robot uses a 2D LIDAR for obstacle detection and a RealSense sensor for visual-inertial localization. The planner...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/projects/trotbot/",
         "teaser": "http://localhost:4000/assets/images/projects/trotbot_dp.jpeg"
