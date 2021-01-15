@@ -268,6 +268,7 @@ collections:
       - modbot.md
       - trotbot.md
       - swarmbots.md
+      - thesis.md
 
 # Defaults
 defaults:

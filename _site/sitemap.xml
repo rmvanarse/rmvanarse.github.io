@@ -2,19 +2,23 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>/projects/modbot/</loc>
-<lastmod>2021-01-15T20:23:15+05:30</lastmod>
+<lastmod>2021-01-16T01:25:14+05:30</lastmod>
 </url>
 <url>
 <loc>/projects/trotbot/</loc>
-<lastmod>2021-01-15T20:23:15+05:30</lastmod>
+<lastmod>2021-01-16T01:25:14+05:30</lastmod>
 </url>
 <url>
 <loc>/projects/swarmbots/</loc>
-<lastmod>2021-01-15T20:23:15+05:30</lastmod>
+<lastmod>2021-01-16T01:25:14+05:30</lastmod>
+</url>
+<url>
+<loc>/projects/thesis/</loc>
+<lastmod>2021-01-16T01:25:14+05:30</lastmod>
 </url>
 <url>
 <loc>/projects/object_tracking/</loc>
-<lastmod>2021-01-15T20:23:15+05:30</lastmod>
+<lastmod>2021-01-16T01:25:14+05:30</lastmod>
 </url>
 <url>
 <loc>/</loc>

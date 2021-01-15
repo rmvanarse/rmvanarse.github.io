@@ -17,6 +17,12 @@ var store = [{
         "url": "/projects/swarmbots/",
         "teaser": "/assets/images/projects/swarmbots_dp.jpeg"
       },{
+        "title": "Visual-Inertial SLAM for AUVs",
+        "excerpt":"Underwater visual odometry poses several challenges due to attenuation of light, reflections, suspended particles, poor features, absence of GPS, inability to use LIDARs, etc. A light-transmission based image enhancement pipeline was developed in this project to eleminate degradations in underwater visual data and improve the performance of SLAM &amp; VIO...","categories": [],
+        "tags": [],
+        "url": "/projects/thesis/",
+        "teaser": "/assets/images/projects/thesis_dp.png"
+      },{
         "title": "Robot Localization using Object Tracking",
         "excerpt":"This project attempts to model localization in robots as humans do while navigating in the real world. Humans use their semantic understanding of the environment to often track entire ‘objects of interest’ rather than relying only on features/keypoints (as done in most VIO/SLAM methods). The focus of this project was...","categories": [],
         "tags": [],
