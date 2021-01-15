@@ -2,11 +2,15 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/projects/modbot/</loc>
-<lastmod>2021-01-15T15:12:20+05:30</lastmod>
+<lastmod>2021-01-15T16:11:08+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/projects/swarmbots/</loc>
+<lastmod>2021-01-15T16:11:08+05:30</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/projects/trotbot/</loc>
-<lastmod>2021-01-15T15:12:20+05:30</lastmod>
+<lastmod>2021-01-15T16:11:08+05:30</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
