@@ -16,4 +16,10 @@ var store = [{
         "tags": [],
         "url": "/projects/swarmbots/",
         "teaser": "/assets/images/projects/swarmbots_dp.jpeg"
+      },{
+        "title": "Robot Localization using Object Tracking",
+        "excerpt":"This project attempts to model localization in robots as humans do while navigating in the real world. Humans use their semantic understanding of the environment to often track entire ‘objects of interest’ rather than relying only on features/keypoints (as done in most VIO/SLAM methods). The focus of this project was...","categories": [],
+        "tags": [],
+        "url": "/projects/object_tracking/",
+        "teaser": "/assets/images/projects/cogneuro_dp.png"
       }]

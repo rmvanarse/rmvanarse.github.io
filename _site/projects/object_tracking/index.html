@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Trotbot - Rishikesh Vanarse</title>
-<meta name="description" content="An autonomous delivery robot (and a mobile ground robotics research platform) built for indoor environments">
+<!-- begin _includes/seo.html --><title>Robot Localization using Object Tracking - Rishikesh Vanarse</title>
+<meta name="description" content="Obtaining a localization prior by tracking ‘Objects of Interest’ in a depth map">
 
 
   <meta name="author" content="Rishikesh Vanarse">
@@ -22,27 +22,27 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Rishikesh Vanarse">
-<meta property="og:title" content="Trotbot">
-<meta property="og:url" content="/projects/trotbot/">
+<meta property="og:title" content="Robot Localization using Object Tracking">
+<meta property="og:url" content="/projects/object_tracking/">
 
 
-  <meta property="og:description" content="An autonomous delivery robot (and a mobile ground robotics research platform) built for indoor environments">
+  <meta property="og:description" content="Obtaining a localization prior by tracking ‘Objects of Interest’ in a depth map">
 
 
 
-  <meta property="og:image" content="/assets/images/projects/trotbot_dp.jpeg">
+  <meta property="og:image" content="/assets/images/projects/cogneuro_dp.png">
 
 
 
   <meta name="twitter:site" content="@aremvy98">
-  <meta name="twitter:title" content="Trotbot">
-  <meta name="twitter:description" content="An autonomous delivery robot (and a mobile ground robotics research platform) built for indoor environments">
-  <meta name="twitter:url" content="/projects/trotbot/">
+  <meta name="twitter:title" content="Robot Localization using Object Tracking">
+  <meta name="twitter:description" content="Obtaining a localization prior by tracking ‘Objects of Interest’ in a depth map">
+  <meta name="twitter:url" content="/projects/object_tracking/">
 
   
     <meta name="twitter:card" content="summary">
     
-      <meta name="twitter:image" content="/assets/images/projects/trotbot_dp.jpeg">
+      <meta name="twitter:image" content="/assets/images/projects/cogneuro_dp.png">
     
   
 
@@ -61,7 +61,7 @@
   
 
 
-<link rel="canonical" href="/projects/trotbot/">
+<link rel="canonical" href="/projects/object_tracking/">
 
 
 
@@ -308,15 +308,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Trotbot">
-    <meta itemprop="description" content="An autonomous delivery robot (and a mobile ground robotics research platform) built for indoor environments">
+    <meta itemprop="headline" content="Robot Localization using Object Tracking">
+    <meta itemprop="description" content="Obtaining a localization prior by tracking ‘Objects of Interest’ in a depth map">
     <!--<meta itemprop="datePublished" content="2021-01-15T20:23:15+05:30">
     -->
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Trotbot
+          <h1 id="page-title" class="page__title" itemprop="headline">Robot Localization using Object Tracking
 </h1>
           
 
@@ -344,41 +344,41 @@
 
       <section class="page__content" itemprop="text">
         
-        <p><sub><strong>Trotbot</strong> is an autonomous omnidirectional ground robot, designed to serve as an indoor delivery robot. It is able to autonomously navigate around dynamic obstacles and find its way to a given waypoint.</sub></p>
+        <p><sub>This project attempts to model localization in robots as humans do while navigating in the real world. Humans use their semantic understanding of the environment to often track entire ‘objects of interest’ rather than relying only on features/keypoints (as done in most VIO/SLAM methods). </sub></p>
 
-<p><sub>The robot uses a 2D LIDAR for obstacle detection and a RealSense sensor for visual-inertial localization. The planner uses Rapidly Exploring Random Trees (RRT) for local planning and Dijkstra for global planning. The software stack for dynamic path planning has been implemented with ROS, and the processing is done on an on-board NUC.</sub></p>
+<p><sub>The focus of this project was exploring a new method based on navigation in humans, and not on developing a robust localization system. A calibrated Kinect was used for obtaining a depth map and a monochrome image. Objects of interest were detected in the images using YOLOv3 and their approximate 3D location is estimated. These objects were then tracked through the frames (without the use of features), to obtain a localization prior.</sub></p>
 
 <figure class="third ">
   
     
-      <a href="/assets/images/projects/trotbot_quark.png">
-          <img src="/assets/images/projects/trotbot_quark.png" alt="placeholder image 1" />
+      <a href="/assets/images/projects/cog1.png">
+          <img src="/assets/images/projects/cog1.png" alt="placeholder image 1" />
       </a>
     
   
     
-      <a href="/assets/images/projects/trotbot2020.jpeg">
-          <img src="/assets/images/projects/trotbot2020.jpeg" alt="placeholder image 2" />
+      <a href="/assets/images/projects/cog2.png">
+          <img src="/assets/images/projects/cog2.png" alt="placeholder image 2" />
       </a>
     
   
     
-      <a href="/assets/images/projects/trotbot_dp.jpeg">
-          <img src="/assets/images/projects/trotbot_dp.jpeg" alt="placeholder image 3" />
+      <a href="/assets/images/projects/cog3.png">
+          <img src="/assets/images/projects/cog3.png" alt="placeholder image 3" />
       </a>
     
   
   
-    <figcaption><strong>Trotbot -ERC BITS Goa:</strong> Trotbot prototype from February 2019 (Left, right) and February 2020 (centre)
+    <figcaption>The images above show the YOLOv3 output registered onto the depth map, on a cropped portion of the scene, as the robot moves progressively. The scene is ideally cluttered with many more objects
 </figcaption>
   
 </figure>
 
-<p><sub>Trotbot has been an ongoing projct of the <a href="https://erc-bpgc.github.io/"><strong>Electronics &amp; Robotics Club</strong></a> of BITS Goa since March 2018. The robot is now being developed to additonally serve as a platform for research in autonomous ground robotics. In 2020, the project branched out into two more projects: <a href="https://index.ros.org/r/omnibase/">omnibase</a> (an omni-wheeled robot simulator) and <a href="https://pypi.org/project/gennav/">gennav</a> (a python package for path planning algorithms for robots).</sub></p>
+<p><sub>This project was done as a part of the <strong>Cognitive Neuroscience</strong> course in BITS Goa in Fall 2019, with the aim of incorporating ideas from the brain’s navigation methods in robotics.</sub></p>
 
-<p><sub><em><strong>Role in  Project:</strong> Navigation (Path Planning, Localization, Obstacle detection, dynamic obstacle avoidance)</em></sub></p>
+<p><sub></sub></p>
 
-<p><sub>[<a href="http://github.com/erc-bpgc/Trotbot"><strong>GitHub</strong></a>]</sub></p>
+<p><sub>[<a href="https://github.com/rmvanarse/slam_cogneuro"><strong>GitHub</strong></a>]</sub></p>
 
         
       </section>
@@ -399,23 +399,22 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?via=aremvy98&text=Trotbot%20%2Fprojects%2Ftrotbot%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?via=aremvy98&text=Robot+Localization+using+Object+Tracking%20%2Fprojects%2Fobject_tracking%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=%2Fprojects%2Ftrotbot%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=%2Fprojects%2Fobject_tracking%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2Fprojects%2Ftrotbot%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2Fprojects%2Fobject_tracking%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/projects/modbot/" class="pagination--pager" title="Modular Robots
+      <a href="/projects/swarmbots/" class="pagination--pager" title="Swarmbots
 ">Previous</a>
     
     
-      <a href="/projects/swarmbots/" class="pagination--pager" title="Swarmbots
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
