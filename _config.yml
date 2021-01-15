@@ -264,6 +264,10 @@ compress_html:
 collections:
   projects:
     output: true
+    order:
+      - modbot.md
+      - trotbot.md
+      - swarmbots.md
 
 # Defaults
 defaults:
