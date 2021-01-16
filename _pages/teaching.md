@@ -10,7 +10,7 @@ toc: true
 ## Courses Designed:
 
 1. [**Software for Robotics**]() _(Conducted by BITS Goa & BITS Hyd as **Software for Embedded Systems**)_ <br>
-  * Designed the course structure, content (theory), labs and projects for CS GXXX, a course for Masters in Computer Science in BITS Goa
+  * Designed the course structure, content (theory), labs and projects for CS F424/ CS G523, a course for Masters in Computer Science in BITS Goa
   * The course was designed in Fall 2019 and conducted officially for BITS Goa & BITS Hyderabad CS Masters programme in the Spring 2020 semester.
   * Contents of the course included introduction to Robot Operating System (ROS), development boards (RasPi, Arduino, ESP), sensor interfacing, basic control theory, motion planning & simulations. 
 <br><br>
@@ -29,9 +29,25 @@ toc: true
 <br/>
 <hr style="border:1px solid gray"/>
 
-## Courses Conducted
+## Courses Conducted & Mentored
+1. [**CTE: Intermediate Robotics**](https://github.com/ERC-BPGC/cte-archive/tree/master/Sem2_19-20) **- Course Instructor** _(2020)_ <br>
+  * Conducted the lectures of the course
+<br><br>
 
-## Courses Mentored
+1. [**CTE: Introduction to Robotics**](https://github.com/ERC-BPGC/cte-archive/tree/master/Sem1_19-20) **- Course Instructor** _(Fall 2019)_
+  * Conducted lectures on ROS, Linux, VCS and basic coding
+  * Mentored the practical implementation sessions
+<br><br>
+
+1. **CS G523: Software for Embedded Systems** **- Teacher's Assistant** _(Spring 2020)_
+  * Conducted lectures/tutorials on ROS, RViz, RasPi GPIO
+  * Designed the lab statements and conducted labs on Differential drive, Arduino, RasPi and Processing
+<br><br>
+1. **CTE: Introduction to Robotics** **- Course Mentor** _(2018)_
+  * Mentored the student projects
+
+<br/>
+<hr style="border:1px solid gray"/>
 
 ## Other Lectures/Talks
 
