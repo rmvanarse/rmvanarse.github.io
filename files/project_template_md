@@ -1,0 +1,27 @@
+---
+title: "Title"
+excerpt: "_Subtitle_"
+header:
+  teaser: /assets/images/projects/HEADER_IMAGE
+gallery:
+  - url: /assets/images/projects/IMAGE1
+    image_path: /assets/images/projects/IMAGE1
+    alt: "placeholder image 1"
+  - url: /assets/images/projects/IMAGE2
+    image_path: /assets/images/projects/IMAGE2
+    alt: "placeholder image 2"
+  - url: /assets/images/projects/IMAGE3
+    image_path: /assets/images/projects/IMAGE3
+    alt: "placeholder image 3"
+---
+<sub>**Name** is ..</sub>
+
+<sub>content...</sub>
+
+{% include gallery caption="**Project:** caption..." %}
+
+<sub>content..</sub>
+
+<sub>_**Role in  Project:** Role..._</sub>
+
+<sub>\[[**GitHub Repo**](http://github.com/)\]</sub>

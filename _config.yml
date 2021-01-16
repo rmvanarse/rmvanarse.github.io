@@ -260,6 +260,18 @@ compress_html:
   ignore:
     envs: development
 
+#CUSTOM: Collections
+collections:
+  projects:
+    output: true
+    order:
+      - modbot.md
+      - trotbot.md
+      - swarmbots.md
+      - thesis.md
+      - object_tracking.md
+      - multispectral.md
+      - ps1.md
 
 # Defaults
 defaults:
@@ -271,7 +283,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments:  true
       share: true
       related: true
   # _pages
@@ -285,3 +297,17 @@ defaults:
       comments: # true
       share: true
       related: true
+
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      read_time: true
+      comments: true
+      show_date: false
+
+

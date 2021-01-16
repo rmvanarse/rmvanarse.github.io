@@ -8,7 +8,7 @@ header:
   caption: "Bogmalo,Goa"
   actions:
     - label: "See Projects"
-      url: "https://rmvanarse.github.io/projects"
+      url: "/projects/"
 author_profile: true
 ---
 ## About Me
