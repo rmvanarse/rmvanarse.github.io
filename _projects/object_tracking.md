@@ -24,4 +24,4 @@ gallery:
 
 <sub></sub>
 
-<sub>\[[**GitHub**](https://github.com/rmvanarse/slam_cogneuro)\]</sub>
+<sub>\[[**GitHub Repo**](https://github.com/rmvanarse/slam_cogneuro)\]</sub>

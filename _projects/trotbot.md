@@ -23,4 +23,4 @@ gallery:
 
 <sub>_**Role in  Project:** Navigation (Path Planning, Localization, Obstacle detection, dynamic obstacle avoidance)_</sub>
 
-<sub>\[[**GitHub**](http://github.com/erc-bpgc/Trotbot)\]</sub>
+<sub>\[[**GitHub Repo**](http://github.com/erc-bpgc/Trotbot)\]</sub>

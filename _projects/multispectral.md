@@ -24,4 +24,3 @@ gallery:
 
 <sub></sub>
 
-<sub>\[[**GitHub**](http://github.com/)\]</sub>

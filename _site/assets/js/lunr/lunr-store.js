@@ -40,4 +40,10 @@ var store = [{
         "tags": [],
         "url": "/projects/ps1/",
         "teaser": "/assets/images/projects/ps1_dp.png"
+      },{
+        "title": "LED Globe",
+        "excerpt":"The LED Globe was a large semicircular arc (1.5m diameter) lined with RGB LEDs. By rotating at a high speed about a vertical axis, it could display images mid-air, like a hologram. Each image was split into vertical segments, that were sent to the LEDs in a timed manner as...","categories": [],
+        "tags": [],
+        "url": "/projects/globe/",
+        "teaser": "/assets/images/projects/globe_dp.jpeg"
       }]
