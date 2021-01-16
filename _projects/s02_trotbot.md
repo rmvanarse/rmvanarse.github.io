@@ -14,13 +14,13 @@ gallery:
     image_path: /assets/images/projects/trotbot_dp.jpeg
     alt: "placeholder image 3"
 ---
-<sub>**Trotbot** is an autonomous omnidirectional ground robot, designed to serve as an indoor delivery robot. It is able to autonomously navigate around dynamic obstacles and find its way to a given waypoint.</sub>
+**Trotbot** is an autonomous omnidirectional ground robot, designed to serve as an indoor delivery robot. It is able to autonomously navigate around dynamic obstacles and find its way to a given waypoint.
 
-<sub>The robot uses a 2D LIDAR for obstacle detection and a RealSense sensor for visual-inertial localization. The planner uses Rapidly Exploring Random Trees (RRT) for local planning and Dijkstra for global planning. The software stack for dynamic path planning has been implemented with ROS, and the processing is done on an on-board NUC.</sub>
+The robot uses a 2D LIDAR for obstacle detection and a RealSense sensor for visual-inertial localization. The planner uses Rapidly Exploring Random Trees (RRT) for local planning and Dijkstra for global planning. The software stack for dynamic path planning has been implemented with ROS, and the processing is done on an on-board NUC.
 
 {% include gallery caption="**Trotbot -ERC BITS Goa:** Trotbot prototype from February 2019 (Left, right) and February 2020 (centre)" %}
-<sub>Trotbot has been an ongoing projct of the [**Electronics & Robotics Club**](https://erc-bpgc.github.io/) of BITS Goa since March 2018. The robot is now being developed to additonally serve as a platform for research in autonomous ground robotics. In 2020, the project branched out into two more projects: [omnibase](https://index.ros.org/r/omnibase/) (an omni-wheeled robot simulator) and [gennav](https://pypi.org/project/gennav/) (a python package for path planning algorithms for robots).</sub>
+Trotbot has been an ongoing projct of the [**Electronics & Robotics Club**](https://erc-bpgc.github.io/) of BITS Goa since March 2018. The robot is now being developed to additonally serve as a platform for research in autonomous ground robotics. In 2020, the project branched out into two more projects: [omnibase](https://index.ros.org/r/omnibase/) (an omni-wheeled robot simulator) and [gennav](https://pypi.org/project/gennav/) (a python package for path planning algorithms for robots).
 
-<sub>_**Role in  Project:** Navigation (Path Planning, Localization, Obstacle detection, dynamic obstacle avoidance)_</sub>
+_**Role in  Project:** Navigation (Path Planning, Localization, Obstacle detection, dynamic obstacle avoidance)_
 
-<sub>\[[**GitHub Repo**](http://github.com/erc-bpgc/Trotbot)\]</sub>
+\[[**GitHub Repo**](http://github.com/erc-bpgc/Trotbot)\]
