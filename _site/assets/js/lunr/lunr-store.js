@@ -30,7 +30,7 @@ var store = [{
         "teaser": "/assets/images/projects/cogneuro_dp.png"
       },{
         "title": "Multispectral Image Registration",
-        "excerpt":"Name is ..   content…                                                                                                                                Project: caption…       content..   Role in  Project: Role…   [GitHub]  ","categories": [],
+        "excerpt":"Precision agriculture often require images from different spectra in infrared &amp; visual for gaining nutritional information about the crop. In this project, multispectral images of a field were taken by flying a drone over the field. A method for alignment of images from different spectra was developed. Infrared images differ...","categories": [],
         "tags": [],
         "url": "/projects/multispectral/",
         "teaser": "/assets/images/projects/farm.png"
