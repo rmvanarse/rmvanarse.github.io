@@ -7,7 +7,7 @@ classes: wide
 toc: true
 
 ---
-## Courses Designed:
+## Courses Designed
 
 1. [**Software for Robotics**]() _(Conducted by BITS Goa & BITS Hyd as **Software for Embedded Systems**)_ <br>
   * Designed the course structure, content (theory), labs and projects for CS F424/ CS G523, a course for Masters in Computer Science in BITS Goa
@@ -51,5 +51,8 @@ toc: true
 
 ## Other Lectures/Talks
 
-<sub>
-</sub>
+1. **IEEE Tech Talks** _(BITS Goa, August 2019)_
+    <br> Topic: Swarm Robots
+
+2. **Talks for the Robotics Club** _(2018 & 2019)_
+    <br> Pre-induction lectures, Orientations, etc. on different topics in robotics
