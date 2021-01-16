@@ -265,13 +265,13 @@ collections:
   projects:
     output: true
     order:
-      - modbot.md
-      - trotbot.md
-      - swarmbots.md
-      - thesis.md
-      - object_tracking.md
-      - multispectral.md
-      - ps1.md
+    #  - modbot.md
+    #  - trotbot.md
+    #  - swarmbots.md
+    #  - thesis.md
+    #  - object_tracking.md
+    #  - multispectral.md
+    #  - ps1.md
 
 # Defaults
 defaults:
