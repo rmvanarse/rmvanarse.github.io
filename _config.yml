@@ -271,6 +271,7 @@ collections:
       - thesis.md
       - object_tracking.md
       - multispectral.md
+      - ps1.md
 
 # Defaults
 defaults:

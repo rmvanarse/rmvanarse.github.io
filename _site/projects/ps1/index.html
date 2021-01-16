@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Trotbot - Rishikesh Vanarse</title>
-<meta name="description" content="An autonomous delivery robot (and a mobile ground robotics research platform) built for indoor environments">
+<!-- begin _includes/seo.html --><title>Automatic Signature Verification - Rishikesh Vanarse</title>
+<meta name="description" content="A Siamese Neural Network for distinguishing between authentic &amp; forged signatures">
 
 
   <meta name="author" content="Rishikesh Vanarse">
@@ -22,27 +22,27 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Rishikesh Vanarse">
-<meta property="og:title" content="Trotbot">
-<meta property="og:url" content="/projects/trotbot/">
+<meta property="og:title" content="Automatic Signature Verification">
+<meta property="og:url" content="/projects/ps1/">
 
 
-  <meta property="og:description" content="An autonomous delivery robot (and a mobile ground robotics research platform) built for indoor environments">
+  <meta property="og:description" content="A Siamese Neural Network for distinguishing between authentic &amp; forged signatures">
 
 
 
-  <meta property="og:image" content="/assets/images/projects/trotbot_dp.jpeg">
+  <meta property="og:image" content="/assets/images/projects/ps1_dp.png">
 
 
 
   <meta name="twitter:site" content="@aremvy98">
-  <meta name="twitter:title" content="Trotbot">
-  <meta name="twitter:description" content="An autonomous delivery robot (and a mobile ground robotics research platform) built for indoor environments">
-  <meta name="twitter:url" content="/projects/trotbot/">
+  <meta name="twitter:title" content="Automatic Signature Verification">
+  <meta name="twitter:description" content="A Siamese Neural Network for distinguishing between authentic &amp; forged signatures">
+  <meta name="twitter:url" content="/projects/ps1/">
 
   
     <meta name="twitter:card" content="summary">
     
-      <meta name="twitter:image" content="/assets/images/projects/trotbot_dp.jpeg">
+      <meta name="twitter:image" content="/assets/images/projects/ps1_dp.png">
     
   
 
@@ -61,7 +61,7 @@
   
 
 
-<link rel="canonical" href="/projects/trotbot/">
+<link rel="canonical" href="/projects/ps1/">
 
 
 
@@ -308,15 +308,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Trotbot">
-    <meta itemprop="description" content="An autonomous delivery robot (and a mobile ground robotics research platform) built for indoor environments">
+    <meta itemprop="headline" content="Automatic Signature Verification">
+    <meta itemprop="description" content="A Siamese Neural Network for distinguishing between authentic &amp; forged signatures">
     <!--<meta itemprop="datePublished" content="2021-01-16T14:44:35+05:30">
     -->
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Trotbot
+          <h1 id="page-title" class="page__title" itemprop="headline">Automatic Signature Verification
 </h1>
           
 
@@ -344,41 +344,27 @@
 
       <section class="page__content" itemprop="text">
         
-        <p><sub><strong>Trotbot</strong> is an autonomous omnidirectional ground robot, designed to serve as an indoor delivery robot. It is able to autonomously navigate around dynamic obstacles and find its way to a given waypoint.</sub></p>
+        <p><sub>Signature verification involves distinguishing between authentic signatures and forgeries. Inspired from facial recognition networks, a one-shot learning convolutional neural network was designed to detect forgeries of a given signature.</sub></p>
 
-<p><sub>The robot uses a 2D LIDAR for obstacle detection and a RealSense sensor for visual-inertial localization. The planner uses Rapidly Exploring Random Trees (RRT) for local planning and Dijkstra for global planning. The software stack for dynamic path planning has been implemented with ROS, and the processing is done on an on-board NUC.</sub></p>
+<p><sub>A Siamese architecture was developed using PyTorch and was trained using triplet loss. A dataset containing several authentic signatures &amp; forged signatures of around 3000 people was used. The final network converts the input signatures to a lower-dimensional embedding vector for comparison. It is able to identify forgeries even with only one or two true signatures for reference.</sub></p>
 
-<figure class="third ">
+<figure class=" ">
   
     
-      <a href="/assets/images/projects/trotbot_quark.png">
-          <img src="/assets/images/projects/trotbot_quark.png" alt="placeholder image 1" />
-      </a>
-    
-  
-    
-      <a href="/assets/images/projects/trotbot2020.jpeg">
-          <img src="/assets/images/projects/trotbot2020.jpeg" alt="placeholder image 2" />
-      </a>
-    
-  
-    
-      <a href="/assets/images/projects/trotbot_dp.jpeg">
-          <img src="/assets/images/projects/trotbot_dp.jpeg" alt="placeholder image 3" />
+      <a href="/assets/images/projects/ps1_dp.png">
+          <img src="/assets/images/projects/ps1_dp.png" alt="placeholder image 1" />
       </a>
     
   
   
-    <figcaption><strong>Trotbot -ERC BITS Goa:</strong> Trotbot prototype from February 2019 (Left, right) and February 2020 (centre)
+    <figcaption><strong>Training:</strong> Training the Siamese architecture using triplet loss, using a pivot image, true image and false image as inputs.
 </figcaption>
   
 </figure>
 
-<p><sub>Trotbot has been an ongoing projct of the <a href="https://erc-bpgc.github.io/"><strong>Electronics &amp; Robotics Club</strong></a> of BITS Goa since March 2018. The robot is now being developed to additonally serve as a platform for research in autonomous ground robotics. In 2020, the project branched out into two more projects: <a href="https://index.ros.org/r/omnibase/">omnibase</a> (an omni-wheeled robot simulator) and <a href="https://pypi.org/project/gennav/">gennav</a> (a python package for path planning algorithms for robots).</sub></p>
+<p><sub>This project was done in Summer 2019 as an internship project (as a requirement of the ‘Practice School’ programme of BITS Goa) for Bank of Maharashtra.</sub></p>
 
-<p><sub><em><strong>Role in  Project:</strong> Navigation (Path Planning, Localization, Obstacle detection, dynamic obstacle avoidance)</em></sub></p>
-
-<p><sub>[<a href="http://github.com/erc-bpgc/Trotbot"><strong>GitHub</strong></a>]</sub></p>
+<p><sub>[<a href="http://github.com/rmvanarse/ps1_project"><strong>GitHub</strong></a>]</sub></p>
 
         
       </section>
@@ -399,23 +385,22 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?via=aremvy98&text=Trotbot%20%2Fprojects%2Ftrotbot%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?via=aremvy98&text=Automatic+Signature+Verification%20%2Fprojects%2Fps1%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=%2Fprojects%2Ftrotbot%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=%2Fprojects%2Fps1%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2Fprojects%2Ftrotbot%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2Fprojects%2Fps1%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/projects/modbot/" class="pagination--pager" title="Modular Robots
+      <a href="/projects/multispectral/" class="pagination--pager" title="Multispectral Image Registration
 ">Previous</a>
     
     
-      <a href="/projects/swarmbots/" class="pagination--pager" title="Swarmbots
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 

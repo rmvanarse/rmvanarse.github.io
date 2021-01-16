@@ -34,4 +34,10 @@ var store = [{
         "tags": [],
         "url": "/projects/multispectral/",
         "teaser": "/assets/images/projects/farm.png"
+      },{
+        "title": "Automatic Signature Verification",
+        "excerpt":"Signature verification involves distinguishing between authentic signatures and forgeries. Inspired from facial recognition networks, a one-shot learning convolutional neural network was designed to detect forgeries of a given signature. A Siamese architecture was developed using PyTorch and was trained using triplet loss. A dataset containing several authentic signatures &amp; forged...","categories": [],
+        "tags": [],
+        "url": "/projects/ps1/",
+        "teaser": "/assets/images/projects/ps1_dp.png"
       }]
