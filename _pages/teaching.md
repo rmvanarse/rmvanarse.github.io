@@ -49,7 +49,7 @@ toc: true
 <br/>
 <hr style="border:1px solid gray"/>
 
-## <ins>Other Lectures/Talks</ins>
+## <ins>Other Lectures/Talks Conducted</ins>
 
 1. **IEEE Tech Talks** _(BITS Goa, August 2019)_
     <br> Topic: Swarm Robots
