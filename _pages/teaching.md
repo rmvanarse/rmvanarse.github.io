@@ -7,7 +7,7 @@ classes: wide
 toc: true
 
 ---
-## Courses Designed
+## <ins>Courses Designed</ins>
 
 1. [**Software for Robotics**]() _(Conducted by BITS Goa & BITS Hyd as **Software for Embedded Systems**)_ <br>
   * Designed the course structure, content (theory), labs and projects for CS F424/ CS G523, a course for Masters in Computer Science in BITS Goa
@@ -29,7 +29,7 @@ toc: true
 <br/>
 <hr style="border:1px solid gray"/>
 
-## Courses Conducted & Mentored
+## <ins>Courses Conducted & Mentored</ins>
 1. [**CTE: Intermediate Robotics**](https://github.com/ERC-BPGC/cte-archive/tree/master/Sem2_19-20) **- Course Instructor** _(2020)_ <br>
   * Conducted the lectures of the course
 <br><br>
@@ -39,20 +39,23 @@ toc: true
   * Mentored the practical implementation sessions
 <br><br>
 
-1. **CS G523: Software for Embedded Systems** **- Teacher's Assistant** _(Spring 2020)_
+1. <span style="text-decoration: underline">**CS G523: Software for Embedded Systems**</span> **- Teacher's Assistant** _(Spring 2020)_
   * Conducted lectures/tutorials on ROS, RViz, RasPi GPIO
   * Designed the lab statements and conducted labs on Differential drive, Arduino, RasPi and Processing
 <br><br>
-1. **CTE: Introduction to Robotics** **- Course Mentor** _(2018)_
+1. <span style="text-decoration: underline">**CTE: Introduction to Robotics**</span> **- Course Mentor** _(2018)_
   * Mentored the student projects
 
 <br/>
 <hr style="border:1px solid gray"/>
 
-## Other Lectures/Talks
+## <ins>Other Lectures/Talks</ins>
 
 1. **IEEE Tech Talks** _(BITS Goa, August 2019)_
     <br> Topic: Swarm Robots
 
 2. **Talks for the Robotics Club** _(2018 & 2019)_
     <br> Pre-induction lectures, Orientations, etc. on different topics in robotics
+
+<br/>
+<hr style="border:1px solid gray"/>
