@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Visual-Inertial SLAM for AUVs - Rishikesh Vanarse</title>
-<meta name="description" content="Improving VIO/SLAM for underwater robots through transmission-based image enhancement">
+<!-- begin _includes/seo.html --><title>Multispectral Image Registration - Rishikesh Vanarse</title>
+<meta name="description" content="Alignment of drone images taken from multiple spectral cameras for precision agriculture applications">
 
 
   <meta name="author" content="Rishikesh Vanarse">
@@ -22,27 +22,27 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Rishikesh Vanarse">
-<meta property="og:title" content="Visual-Inertial SLAM for AUVs">
-<meta property="og:url" content="/projects/thesis/">
+<meta property="og:title" content="Multispectral Image Registration">
+<meta property="og:url" content="/projects/s06_multispectral/">
 
 
-  <meta property="og:description" content="Improving VIO/SLAM for underwater robots through transmission-based image enhancement">
+  <meta property="og:description" content="Alignment of drone images taken from multiple spectral cameras for precision agriculture applications">
 
 
 
-  <meta property="og:image" content="/assets/images/projects/thesis_dp.png">
+  <meta property="og:image" content="/assets/images/projects/farm.png">
 
 
 
   <meta name="twitter:site" content="@aremvy98">
-  <meta name="twitter:title" content="Visual-Inertial SLAM for AUVs">
-  <meta name="twitter:description" content="Improving VIO/SLAM for underwater robots through transmission-based image enhancement">
-  <meta name="twitter:url" content="/projects/thesis/">
+  <meta name="twitter:title" content="Multispectral Image Registration">
+  <meta name="twitter:description" content="Alignment of drone images taken from multiple spectral cameras for precision agriculture applications">
+  <meta name="twitter:url" content="/projects/s06_multispectral/">
 
   
     <meta name="twitter:card" content="summary">
     
-      <meta name="twitter:image" content="/assets/images/projects/thesis_dp.png">
+      <meta name="twitter:image" content="/assets/images/projects/farm.png">
     
   
 
@@ -50,7 +50,7 @@
 
 
 
-  <meta property="article:published_time" content="2021-01-16T17:46:31+05:30">
+  <meta property="article:published_time" content="2021-01-16T19:45:06+05:30">
 
 
 
@@ -61,7 +61,7 @@
   
 
 
-<link rel="canonical" href="/projects/thesis/">
+<link rel="canonical" href="/projects/s06_multispectral/">
 
 
 
@@ -153,6 +153,8 @@
               <a href="/">Home</a>
             </li><li class="masthead__menu-item">
               <a href="/projects/">Projects</a>
+            </li><li class="masthead__menu-item">
+              <a href="/teaching/">Teaching</a>
             </li><li class="masthead__menu-item">
               <a href="/blog/">Blog</a>
             </li><li class="masthead__menu-item">
@@ -308,15 +310,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Visual-Inertial SLAM for AUVs">
-    <meta itemprop="description" content="Improving VIO/SLAM for underwater robots through transmission-based image enhancement">
-    <!--<meta itemprop="datePublished" content="2021-01-16T17:46:31+05:30">
+    <meta itemprop="headline" content="Multispectral Image Registration">
+    <meta itemprop="description" content="Alignment of drone images taken from multiple spectral cameras for precision agriculture applications">
+    <!--<meta itemprop="datePublished" content="2021-01-16T19:45:06+05:30">
     -->
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Visual-Inertial SLAM for AUVs
+          <h1 id="page-title" class="page__title" itemprop="headline">Multispectral Image Registration
 </h1>
           
 
@@ -344,31 +346,39 @@
 
       <section class="page__content" itemprop="text">
         
-        <p><sub>Underwater visual odometry poses several challenges due to attenuation of light, reflections, suspended particles, poor features, absence of GPS, inability to use LIDARs, etc. A light-transmission based image enhancement pipeline was developed in this project to eleminate degradations in underwater visual data and improve the performance of SLAM &amp; VIO systems with underwater robots.</sub></p>
+        <p><sub>Precision agriculture often require images from different spectra in infrared &amp; visual for gaining nutritional information about the crop. In this project, multispectral images of a field were taken by flying a drone over the field. A method for alignment of images from different spectra was developed.</sub></p>
 
-<p><sub>The method was tested on several open source visual inerial datasets from a vareity of underwater environments, with ORB SLAM3 (and partly with ROVIO and OKVIS).</sub></p>
+<p><sub>Infrared images differ significantly from visual-spectrum images (in terms of texture, intensity gradients, etc), so standard feature-based computer vision methods cannot be used. The project used an iterative method for maximising ‘Mattes Mutual Information’ between visual and infrared images,  for multi-channel registration. Additionally a method for estimating a prior transform between channels was developed, to move towards real-time performance.</sub></p>
 
-<figure class="half ">
+<figure class="third ">
   
     
-      <a href="/assets/images/projects/thesis_reef.png">
-          <img src="/assets/images/projects/thesis_reef.png" alt="placeholder image 1" />
+      <a href="/assets/images/projects/imgR.png">
+          <img src="/assets/images/projects/imgR.png" alt="placeholder image 1" />
       </a>
     
   
     
-      <a href="/assets/images/projects/thesis_all_cave.png">
-          <img src="/assets/images/projects/thesis_all_cave.png" alt="placeholder image 2" />
+      <a href="/assets/images/projects/imgIR.png">
+          <img src="/assets/images/projects/imgIR.png" alt="placeholder image 2" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/projects/imgRGIR.png">
+          <img src="/assets/images/projects/imgRGIR.png" alt="placeholder image 3" />
       </a>
     
   
   
-    <figcaption>The first pair of images shows a reef before &amp; after the transmission-based enhancement. The second set of images shows features tracked in a frame in an underwater cave before/after enhancement
+    <figcaption><strong>Image 1:</strong> Red-edge channel; <strong>Image 2:</strong> Near-IR channel; <strong>Image 3:</strong> Registered R-G-NIR image
 </figcaption>
   
 </figure>
 
-<p><sub>This project was done as an <strong>Undergraduate Thesis</strong> in Spring 2020, with the <a href="https://www.autonomousrobotslab.com/"><strong>Autonomous Robots Lab</strong></a> in <strong>University of Nevada, Reno</strong> (now in NTNU), under the guidance of <a href="http://www.kostasalexis.com/"><strong>Prof. Kostas Alexis</strong></a>.</sub></p>
+<p><sub>This project was done in July 2020  as a short, month-long project with the <a href="https://www.autonomousrobotslab.com/"><strong>Autonomous Robots Lab</strong></a> (<strong>University of Nevada, Reno</strong>), under <a href="http://www.kostasalexis.com/"><strong>Prof Kostas Alexis</strong></a>.</sub></p>
+
+<p><sub></sub></p>
 
 
         
@@ -380,7 +390,7 @@
 
 
         <!-- 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-01-16T17:46:31+05:30">January 16, 2021</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-01-16T19:45:06+05:30">January 16, 2021</time></p>
 
 -->
       </footer>
@@ -390,22 +400,22 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?via=aremvy98&text=Visual-Inertial+SLAM+for+AUVs%20%2Fprojects%2Fthesis%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?via=aremvy98&text=Multispectral+Image+Registration%20%2Fprojects%2Fs06_multispectral%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=%2Fprojects%2Fthesis%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=%2Fprojects%2Fs06_multispectral%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2Fprojects%2Fthesis%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2Fprojects%2Fs06_multispectral%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/projects/swarmbots/" class="pagination--pager" title="Swarmbots
+      <a href="/projects/s05_object_tracking/" class="pagination--pager" title="Robot Localization using Object Tracking
 ">Previous</a>
     
     
-      <a href="/projects/object_tracking/" class="pagination--pager" title="Robot Localization using Object Tracking
+      <a href="/projects/s07_ps1/" class="pagination--pager" title="Automatic Signature Verification
 ">Next</a>
     
   </nav>

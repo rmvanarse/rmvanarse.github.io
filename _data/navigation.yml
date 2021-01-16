@@ -4,10 +4,13 @@ main:
     url: /
   - title: "Projects"
     url: /projects/
+  - title: "Teaching"
+    url: /teaching/
   - title: "Blog"
     url: /blog/
   - title: "CV"
     url: https://drive.google.com/file/d/1XRPRo3xVD5GGetBr3gqNPks20icHLIlV/view?usp=sharing
+
 
 
   # - title: "Sample Posts"

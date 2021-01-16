@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Multispectral Image Registration - Rishikesh Vanarse</title>
-<meta name="description" content="Alignment of drone images taken from multiple spectral cameras for precision agriculture applications">
+<!-- begin _includes/seo.html --><title>Robot Localization using Object Tracking - Rishikesh Vanarse</title>
+<meta name="description" content="Obtaining a localization prior by tracking ‘Objects of Interest’ in a depth map">
 
 
   <meta name="author" content="Rishikesh Vanarse">
@@ -22,27 +22,27 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Rishikesh Vanarse">
-<meta property="og:title" content="Multispectral Image Registration">
-<meta property="og:url" content="/projects/multispectral/">
+<meta property="og:title" content="Robot Localization using Object Tracking">
+<meta property="og:url" content="/projects/s05_object_tracking/">
 
 
-  <meta property="og:description" content="Alignment of drone images taken from multiple spectral cameras for precision agriculture applications">
+  <meta property="og:description" content="Obtaining a localization prior by tracking ‘Objects of Interest’ in a depth map">
 
 
 
-  <meta property="og:image" content="/assets/images/projects/farm.png">
+  <meta property="og:image" content="/assets/images/projects/cogneuro_dp.png">
 
 
 
   <meta name="twitter:site" content="@aremvy98">
-  <meta name="twitter:title" content="Multispectral Image Registration">
-  <meta name="twitter:description" content="Alignment of drone images taken from multiple spectral cameras for precision agriculture applications">
-  <meta name="twitter:url" content="/projects/multispectral/">
+  <meta name="twitter:title" content="Robot Localization using Object Tracking">
+  <meta name="twitter:description" content="Obtaining a localization prior by tracking ‘Objects of Interest’ in a depth map">
+  <meta name="twitter:url" content="/projects/s05_object_tracking/">
 
   
     <meta name="twitter:card" content="summary">
     
-      <meta name="twitter:image" content="/assets/images/projects/farm.png">
+      <meta name="twitter:image" content="/assets/images/projects/cogneuro_dp.png">
     
   
 
@@ -50,7 +50,7 @@
 
 
 
-  <meta property="article:published_time" content="2021-01-16T17:46:31+05:30">
+  <meta property="article:published_time" content="2021-01-16T19:45:06+05:30">
 
 
 
@@ -61,7 +61,7 @@
   
 
 
-<link rel="canonical" href="/projects/multispectral/">
+<link rel="canonical" href="/projects/s05_object_tracking/">
 
 
 
@@ -153,6 +153,8 @@
               <a href="/">Home</a>
             </li><li class="masthead__menu-item">
               <a href="/projects/">Projects</a>
+            </li><li class="masthead__menu-item">
+              <a href="/teaching/">Teaching</a>
             </li><li class="masthead__menu-item">
               <a href="/blog/">Blog</a>
             </li><li class="masthead__menu-item">
@@ -308,15 +310,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Multispectral Image Registration">
-    <meta itemprop="description" content="Alignment of drone images taken from multiple spectral cameras for precision agriculture applications">
-    <!--<meta itemprop="datePublished" content="2021-01-16T17:46:31+05:30">
+    <meta itemprop="headline" content="Robot Localization using Object Tracking">
+    <meta itemprop="description" content="Obtaining a localization prior by tracking ‘Objects of Interest’ in a depth map">
+    <!--<meta itemprop="datePublished" content="2021-01-16T19:45:06+05:30">
     -->
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Multispectral Image Registration
+          <h1 id="page-title" class="page__title" itemprop="headline">Robot Localization using Object Tracking
 </h1>
           
 
@@ -344,40 +346,41 @@
 
       <section class="page__content" itemprop="text">
         
-        <p><sub>Precision agriculture often require images from different spectra in infrared &amp; visual for gaining nutritional information about the crop. In this project, multispectral images of a field were taken by flying a drone over the field. A method for alignment of images from different spectra was developed.</sub></p>
+        <p><sub>This project attempts to model localization in robots as humans do while navigating in the real world. Humans use their semantic understanding of the environment to often track entire ‘objects of interest’ rather than relying only on features/keypoints (as done in most VIO/SLAM methods). </sub></p>
 
-<p><sub>Infrared images differ significantly from visual-spectrum images (in terms of texture, intensity gradients, etc), so standard feature-based computer vision methods cannot be used. The project used an iterative method for maximising ‘Mattes Mutual Information’ between visual and infrared images,  for multi-channel registration. Additionally a method for estimating a prior transform between channels was developed, to move towards real-time performance.</sub></p>
+<p><sub>The focus of this project was exploring a new method based on navigation in humans, and not on developing a robust localization system. A calibrated Kinect was used for obtaining a depth map and a monochrome image. Objects of interest were detected in the images using YOLOv3 and their approximate 3D location is estimated. These objects were then tracked through the frames (without the use of features), to obtain a localization prior.</sub></p>
 
 <figure class="third ">
   
     
-      <a href="/assets/images/projects/imgR.png">
-          <img src="/assets/images/projects/imgR.png" alt="placeholder image 1" />
+      <a href="/assets/images/projects/cog1.png">
+          <img src="/assets/images/projects/cog1.png" alt="placeholder image 1" />
       </a>
     
   
     
-      <a href="/assets/images/projects/imgIR.png">
-          <img src="/assets/images/projects/imgIR.png" alt="placeholder image 2" />
+      <a href="/assets/images/projects/cog2.png">
+          <img src="/assets/images/projects/cog2.png" alt="placeholder image 2" />
       </a>
     
   
     
-      <a href="/assets/images/projects/imgRGIR.png">
-          <img src="/assets/images/projects/imgRGIR.png" alt="placeholder image 3" />
+      <a href="/assets/images/projects/cog3.png">
+          <img src="/assets/images/projects/cog3.png" alt="placeholder image 3" />
       </a>
     
   
   
-    <figcaption><strong>Image 1:</strong> Red-edge channel; <strong>Image 2:</strong> Near-IR channel; <strong>Image 3:</strong> Registered R-G-NIR image
+    <figcaption>The images above show the YOLOv3 output registered onto the depth map, on a cropped portion of the scene, as the robot moves progressively. The scene is ideally cluttered with many more objects
 </figcaption>
   
 </figure>
 
-<p><sub>This project was done in July 2020  as a short, month-long project with the <a href="https://www.autonomousrobotslab.com/"><strong>Autonomous Robots Lab</strong></a> (<strong>University of Nevada, Reno</strong>), under <a href="http://www.kostasalexis.com/"><strong>Prof Kostas Alexis</strong></a>.</sub></p>
+<p><sub>This project was done as a part of the <strong>Cognitive Neuroscience</strong> course in BITS Goa in Fall 2019, with the aim of incorporating ideas from the brain’s navigation methods in robotics.</sub></p>
 
 <p><sub></sub></p>
 
+<p><sub>[<a href="https://github.com/rmvanarse/slam_cogneuro"><strong>GitHub Repo</strong></a>]</sub></p>
 
         
       </section>
@@ -388,7 +391,7 @@
 
 
         <!-- 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-01-16T17:46:31+05:30">January 16, 2021</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-01-16T19:45:06+05:30">January 16, 2021</time></p>
 
 -->
       </footer>
@@ -398,22 +401,22 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?via=aremvy98&text=Multispectral+Image+Registration%20%2Fprojects%2Fmultispectral%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?via=aremvy98&text=Robot+Localization+using+Object+Tracking%20%2Fprojects%2Fs05_object_tracking%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=%2Fprojects%2Fmultispectral%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=%2Fprojects%2Fs05_object_tracking%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2Fprojects%2Fmultispectral%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2Fprojects%2Fs05_object_tracking%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/projects/object_tracking/" class="pagination--pager" title="Robot Localization using Object Tracking
+      <a href="/projects/s04_thesis/" class="pagination--pager" title="Visual-Inertial SLAM for AUVs
 ">Previous</a>
     
     
-      <a href="/projects/ps1/" class="pagination--pager" title="Automatic Signature Verification
+      <a href="/projects/s06_multispectral/" class="pagination--pager" title="Multispectral Image Registration
 ">Next</a>
     
   </nav>
