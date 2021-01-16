@@ -9,49 +9,41 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Robot Localization using Object Tracking - Rishikesh Vanarse</title>
-<meta name="description" content="Obtaining a localization prior by tracking ‘Objects of Interest’ in a depth map">
+<!-- begin _includes/seo.html --><title>Teaching - Rishikesh Vanarse</title>
+<meta name="description" content="Work in progress… Please come back later :)">
 
 
   <meta name="author" content="Rishikesh Vanarse">
   
-  <meta property="article:author" content="Rishikesh Vanarse">
-  
 
 
-<meta property="og:type" content="article">
+<meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Rishikesh Vanarse">
-<meta property="og:title" content="Robot Localization using Object Tracking">
-<meta property="og:url" content="/projects/s05_object_tracking/">
+<meta property="og:title" content="Teaching">
+<meta property="og:url" content="/teaching/">
 
 
-  <meta property="og:description" content="Obtaining a localization prior by tracking ‘Objects of Interest’ in a depth map">
+  <meta property="og:description" content="Work in progress… Please come back later :)">
 
 
-
-  <meta property="og:image" content="/assets/images/projects/cogneuro_dp.png">
 
 
 
   <meta name="twitter:site" content="@aremvy98">
-  <meta name="twitter:title" content="Robot Localization using Object Tracking">
-  <meta name="twitter:description" content="Obtaining a localization prior by tracking ‘Objects of Interest’ in a depth map">
-  <meta name="twitter:url" content="/projects/s05_object_tracking/">
+  <meta name="twitter:title" content="Teaching">
+  <meta name="twitter:description" content="Work in progress… Please come back later :)">
+  <meta name="twitter:url" content="/teaching/">
 
   
     <meta name="twitter:card" content="summary">
     
-      <meta name="twitter:image" content="/assets/images/projects/cogneuro_dp.png">
-    
   
 
   
 
 
 
-  <meta property="article:published_time" content="2021-01-17T00:00:37+05:30">
-
 
 
 
@@ -61,7 +53,7 @@
   
 
 
-<link rel="canonical" href="/projects/s05_object_tracking/">
+<link rel="canonical" href="/teaching/">
 
 
 
@@ -124,7 +116,7 @@
 
   </head>
 
-  <body class="layout--single">
+  <body class="layout--single wide">
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
   <ul>
@@ -310,35 +302,17 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Robot Localization using Object Tracking">
-    <meta itemprop="description" content="Obtaining a localization prior by tracking ‘Objects of Interest’ in a depth map">
-    <!--<meta itemprop="datePublished" content="2021-01-17T00:00:37+05:30">
+    <meta itemprop="headline" content="Teaching">
+    
+    <!--
     -->
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Robot Localization using Object Tracking
+          <h1 id="page-title" class="page__title" itemprop="headline">Teaching
 </h1>
           
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          less than 1 minute read
-        
-      </span>
-    
-  </p>
 
 
         </header>
@@ -346,39 +320,93 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>This project attempts to model localization in robots as humans do while navigating in the real world. Humans use their semantic understanding of the environment to often track entire ‘objects of interest’ rather than relying only on features/keypoints (as done in most VIO/SLAM methods).</p>
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#courses-designed">Courses Designed</a></li><li><a href="#courses-conducted--mentored">Courses Conducted &amp; Mentored</a></li><li><a href="#other-lecturestalks-conducted">Other Lectures/Talks Conducted</a></li></ul>
 
-<p>The focus of this project was exploring a new method based on navigation in humans, and not on developing a robust localization system. A calibrated Kinect was used for obtaining a depth map and a monochrome image. Objects of interest were detected in the images using YOLOv3 and their approximate 3D location is estimated. These objects were then tracked through the frames (without the use of features), to obtain a localization prior.</p>
+            </nav>
+          </aside>
+        
+        <h2 id="courses-designed"><ins>Courses Designed</ins></h2>
 
-<figure class="third ">
-  
-    
-      <a href="/assets/images/projects/cog1.png">
-          <img src="/assets/images/projects/cog1.png" alt="placeholder image 1" />
-      </a>
-    
-  
-    
-      <a href="/assets/images/projects/cog2.png">
-          <img src="/assets/images/projects/cog2.png" alt="placeholder image 2" />
-      </a>
-    
-  
-    
-      <a href="/assets/images/projects/cog3.png">
-          <img src="/assets/images/projects/cog3.png" alt="placeholder image 3" />
-      </a>
-    
-  
-  
-    <figcaption>The images above show the YOLOv3 output registered onto the depth map, on a cropped portion of the scene, as the robot moves progressively. The scene is ideally cluttered with many more objects
-</figcaption>
-  
-</figure>
+<ol>
+  <li><a href=""><strong>Software for Robotics</strong></a> <em>(Conducted by BITS Goa &amp; BITS Hyd as <strong>Software for Embedded Systems</strong>)</em> <br />
+    <ul>
+      <li>Designed the course structure, content (theory), labs and projects for CS F424/ CS G523, a course for Masters in Computer Science in BITS Goa</li>
+      <li>The course was designed in Fall 2019 and conducted officially for BITS Goa &amp; BITS Hyderabad CS Masters programme in the Spring 2020 semester.</li>
+      <li>Contents of the course included introduction to Robot Operating System (ROS), development boards (RasPi, Arduino, ESP), sensor interfacing, basic control theory, motion planning &amp; simulations. 
+<br /><br /></li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/ERC-BPGC/cte-archive/tree/master/Sem2_19-20"><strong>Intermediate Robotics</strong></a> <em>(Conducted by <a href="https://bpgc-cte.org/">Centre for Tehnical Education, BITS Goa</a> )</em> <br />
+    <ul>
+      <li>Designed the contents of the course</li>
+      <li>Contents included ROS, Gazebo, RViz, Motion Planning, Forward/Inverse kinematics and Computer Vision.</li>
+      <li>This course was conducted in Spring 2020 by <a href="https://erc-bpgc.github.io/">ERC</a> BITS Goa.
+<br /><br /></li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/ERC-BPGC/cte-archive/tree/master/Sem1_19-20"><strong>Introduction to Robotics</strong></a> <em>(Conducted by <a href="https://bpgc-cte.org/">Centre for Tehnical Education, BITS Goa</a> )</em> <br />
+    <ul>
+      <li>Participated in designing the course structure and content for electronics &amp; coding</li>
+      <li>Course content included microcontroller programming, sensor interfacing, actuators, bot building and a mini-project.</li>
+      <li>This course was conducted in Fall 2019 by <a href="https://erc-bpgc.github.io/">ERC</a> BITS Goa.</li>
+    </ul>
+  </li>
+</ol>
 
-<p>This project was done as a part of the <strong>Cognitive Neuroscience</strong> course in BITS Goa in Fall 2019, with the aim of incorporating ideas from the brain’s navigation methods in robotics.</p>
+<p><br /></p>
+<hr style="border:1px solid gray" />
 
-<p>[<a href="https://github.com/rmvanarse/slam_cogneuro"><strong>GitHub Repo</strong></a>]</p>
+<h2 id="courses-conducted--mentored"><ins>Courses Conducted &amp; Mentored</ins></h2>
+<ol>
+  <li><a href="https://github.com/ERC-BPGC/cte-archive/tree/master/Sem2_19-20"><strong>CTE: Intermediate Robotics</strong></a> <strong>- Course Instructor</strong> <em>(2020)</em> <br />
+    <ul>
+      <li>Conducted the lectures of the course
+<br /><br /></li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/ERC-BPGC/cte-archive/tree/master/Sem1_19-20"><strong>CTE: Introduction to Robotics</strong></a> <strong>- Course Instructor</strong> <em>(Fall 2019)</em>
+    <ul>
+      <li>Conducted lectures on ROS, Linux, VCS and basic coding</li>
+      <li>Mentored the practical implementation sessions
+<br /><br /></li>
+    </ul>
+  </li>
+  <li><span style="text-decoration: underline"><strong>CS G523: Software for Embedded Systems</strong></span> <strong>- Teacher’s Assistant</strong> <em>(Spring 2020)</em>
+    <ul>
+      <li>Conducted lectures/tutorials on ROS, RViz, RasPi GPIO</li>
+      <li>Designed the lab statements and conducted labs on Differential drive, Arduino, RasPi and Processing
+<br /><br /></li>
+    </ul>
+  </li>
+  <li><span style="text-decoration: underline"><strong>CTE: Introduction to Robotics</strong></span> <strong>- Course Mentor</strong> <em>(2018)</em>
+    <ul>
+      <li>Mentored the student projects</li>
+    </ul>
+  </li>
+</ol>
+
+<p><br /></p>
+<hr style="border:1px solid gray" />
+
+<h2 id="other-lecturestalks-conducted"><ins>Other Lectures/Talks Conducted</ins></h2>
+
+<ol>
+  <li>
+    <p><strong>IEEE Tech Talks</strong> <em>(BITS Goa, August 2019)</em>
+ <br /> Topic: Swarm Robots</p>
+  </li>
+  <li>
+    <p><strong>Talks for the Robotics Club</strong> <em>(2018 &amp; 2019)</em>
+ <br /> Pre-induction lectures, Orientations, etc. on different topics in robotics</p>
+  </li>
+</ol>
+
+<p><br /></p>
+<hr style="border:1px solid gray" />
+
 
         
       </section>
@@ -389,36 +417,12 @@
 
 
         <!-- 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-01-17T00:00:37+05:30">January 17, 2021</time></p>
-
 -->
       </footer>
 
-      <section class="page__share">
-  
-    <h4 class="page__share-title">Share on</h4>
-  
-
-  <a href="https://twitter.com/intent/tweet?via=aremvy98&text=Robot+Localization+using+Object+Tracking%20%2Fprojects%2Fs05_object_tracking%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
-
-  <a href="https://www.facebook.com/sharer/sharer.php?u=%2Fprojects%2Fs05_object_tracking%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
-
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2Fprojects%2Fs05_object_tracking%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
-</section>
-
+      
 
       
-  <nav class="pagination">
-    
-      <a href="/projects/s04_thesis/" class="pagination--pager" title="Visual-Inertial SLAM for AUVs
-">Previous</a>
-    
-    
-      <a href="/projects/s06_multispectral/" class="pagination--pager" title="Multispectral Image Registration
-">Next</a>
-    
-  </nav>
-
     </div>
 
     

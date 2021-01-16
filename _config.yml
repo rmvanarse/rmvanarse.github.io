@@ -273,6 +273,10 @@ collections:
     #  - multispectral.md
     #  - ps1.md
 
+  blog:
+    output: true
+
+
 # Defaults
 defaults:
   # _posts
@@ -310,4 +314,15 @@ defaults:
       comments: true
       show_date: false
 
+  # _blog
+  - scope:
+      path: ""
+      type: blog
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments:  true
+      share: true
+      related: true
 

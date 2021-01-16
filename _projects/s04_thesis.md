@@ -12,11 +12,11 @@ gallery:
     alt: "placeholder image 2"
 
 ---
-<sub>Underwater visual odometry poses several challenges due to attenuation of light, reflections, suspended particles, poor features, absence of GPS, inability to use LIDARs, etc. A light-transmission based image enhancement pipeline was developed in this project to eleminate degradations in underwater visual data and improve the performance of SLAM & VIO systems with underwater robots.</sub>
+Underwater visual odometry poses several challenges due to attenuation of light, reflections, suspended particles, poor features, absence of GPS, inability to use LIDARs, etc. A light-transmission based image enhancement pipeline was developed in this project to eleminate degradations in underwater visual data and improve the performance of SLAM & VIO systems with underwater robots.
 
-<sub>The method was tested on several open source visual inerial datasets from a vareity of underwater environments, with ORB SLAM3 (and partly with ROVIO and OKVIS).</sub>
+The method was tested on several open source visual inerial datasets from a vareity of underwater environments, with ORB SLAM3 (and partly with ROVIO and OKVIS).
 
 {% include gallery layout="half" caption="The first pair of images shows a reef before & after the transmission-based enhancement. The second set of images shows features tracked in a frame in an underwater cave before/after enhancement" %}
 
-<sub>This project was done as an **Undergraduate Thesis** in Spring 2020, with the [**Autonomous Robots Lab**](https://www.autonomousrobotslab.com/) in **University of Nevada, Reno** (now in NTNU), under the guidance of [**Prof. Kostas Alexis**](http://www.kostasalexis.com/).</sub>
+This project was done as an **Undergraduate Thesis** in Spring 2020, with the [**Autonomous Robots Lab**](https://www.autonomousrobotslab.com/) in **University of Nevada, Reno** (now in NTNU), under the guidance of [**Prof. Kostas Alexis**](http://www.kostasalexis.com/).
 
