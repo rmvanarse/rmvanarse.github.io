@@ -1,7 +1,15 @@
 # main links
 main:
-  - title: "About"
-    url: https://rmvanarse.github.io/about/
+  - title: "Home"
+    url: /
+  - title: "Projects"
+    url: /projects/
+  - title: "Blog"
+    url: /blog/
+  - title: "CV"
+    url: https://drive.google.com/file/d/1XRPRo3xVD5GGetBr3gqNPks20icHLIlV/view?usp=sharing
+
+
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"

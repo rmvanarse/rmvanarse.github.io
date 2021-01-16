@@ -50,6 +50,8 @@ en: &DEFAULT_EN
   search_algolia_no_results  : "No results"
   results_found              : "Result(s) found"
   back_to_top                : "Back to top"
+
+  my_name                    : "Rishikesh Vanarse"
 en-US:
   <<: *DEFAULT_EN
 en-CA:

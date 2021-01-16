@@ -18,15 +18,15 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Rishikesh Vanarse"
 title_separator          : "-"
-subtitle                 : "Autonomous Robotics | Computer Vision | Artificial Intelligence"
+subtitle                 : "Computer Science, BITS Pilani Goa"
 name                     : "Rishikesh Vanarse"
 description              : "Work in progress... Please come back later :)"
 url                      : # "https://rmvanarse.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "/"
 repository               : "rmvanarse/rmvanarse.github.io"
 teaser                   : /assets/images/bog_end_sea.jpg
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Rishikesh Vanarse"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -98,7 +98,7 @@ analytics:
 author:
   name             : "Rishikesh Vanarse"
   avatar           : "/assets/images/dp_ah9.jpeg"
-  bio              : "<Bio...>"
+  bio              : "**B.E. Computer Science, BITS Goa**<br>_Undergraduate Researcher at Autonomous Robots Lab, University of Nevada, Reno_"
   location         : "Goa, India"
   email            : "rishikesh.vanarse@gmail.com"
   links:
@@ -213,6 +213,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -259,6 +260,18 @@ compress_html:
   ignore:
     envs: development
 
+#CUSTOM: Collections
+collections:
+  projects:
+    output: true
+    order:
+      - modbot.md
+      - trotbot.md
+      - swarmbots.md
+      - thesis.md
+      - object_tracking.md
+      - multispectral.md
+      - ps1.md
 
 # Defaults
 defaults:
@@ -270,6 +283,31 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
+      comments:  true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
       comments: # true
       share: true
       related: true
+
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      read_time: true
+      comments: true
+      show_date: false
+
+
