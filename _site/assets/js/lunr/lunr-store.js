@@ -1,4 +1,40 @@
 var store = [{
+        "title": "Website up!",
+        "excerpt":"First post  ","categories": [],
+        "tags": [],
+        "url": "/first-post/",
+        "teaser": "/assets/images/bog_end_sea.jpg"
+      },{
+        "title": "Article: Semantic Scene Understanding in Robotics",
+        "excerpt":"Abstract:  ","categories": ["Articles"],
+        "tags": ["link","Articles"],
+        "url": "/articles/semantic-scene-understanding/",
+        "teaser": "/assets/images/bog_end_sea.jpg"
+      },{
+        "title": "Google Summer of Code Selection",
+        "excerpt":"(test)   ","categories": ["News"],
+        "tags": ["link","News"],
+        "url": "/news/gsoc-selection/",
+        "teaser": "/assets/images/bog_end_sea.jpg"
+      },{
+        "title": "Thesis Talk: Robotics",
+        "excerpt":"This talk was given as a part of the ‘Thesis Talks’ series by Center for Technical Education, BITS Goa         ","categories": ["Talks"],
+        "tags": ["Talks Robotics"],
+        "url": "/talks/robotics-thesis-talks/",
+        "teaser": "/assets/images/bog_end_sea.jpg"
+      },{
+        "title": "Talk: Bio-inspired robot swarms",
+        "excerpt":"This talk was given for the Tech Week organized by the Center for Technical Education, BITS Goa. 2021 Abstract: Birds and insects, found in nature, are collectively capable of performing complex tasks despite possessing little intelligence. Swarm Robotics draws inspiration from these behaviours in nature to give a group of...","categories": ["Talks"],
+        "tags": ["Talks Robotics"],
+        "url": "/talks/swarmbots-cte-techweek/",
+        "teaser": "/assets/images/bog_end_sea.jpg"
+      },{
+        "title": "Talk: IMU Self-calibration state Estimation in Autonomous Vehicles",
+        "excerpt":"Title: IMU Calibration and Self-correction Algorithm for Open-source Autonomous Vehicle Controller Abstract: An Inertial Measurement Unit (IMU) that measures the linear acceleration and angular velocity of a robot/vehicle is constrained due to physical limitations such as noise, drifts, misalignments and offsets. In order to minimize the drift in state estimates...","categories": ["Upcoming","Talks"],
+        "tags": ["link","Upcoming","Talks"],
+        "url": "/upcoming/talks/cross-symposium-osavc/",
+        "teaser": "/assets/images/bog_end_sea.jpg"
+      },{
         "title": "Modular Robots",
         "excerpt":"Modular Robots are a system of individual modules that are capable of physically linking with each other to form structures suited for different purposes. These structures are able to reconfigure themselves into different configurations, each suited for a different objective. This ability provides versatility to the robots. Whenever the bot...","categories": [],
         "tags": [],
@@ -46,4 +82,4 @@ var store = [{
         "tags": [],
         "url": "/projects/s08_globe/",
         "teaser": "/assets/images/projects/globe_dp.jpeg"
-      }]
+      },]
