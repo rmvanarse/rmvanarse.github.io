@@ -54,7 +54,16 @@ toc: true
 1. **IEEE Tech Talks** _(BITS Goa, August 2019)_
     <br> Topic: Swarm Robots
 
-2. **Talks for the Robotics Club** _(2018 & 2019)_
+1. **6th Annual Research Symposium, Centre for Research in Open Source Software** _Workshop on Open Source Autonomous Vehicle Technology_ _(UC Santa Cruz, October 2021)_
+    <br> Topic: IMU Calibration and Self-correction Algorithm for  Autonomous Vehicle Controller
+
+1. **Center for Technical Education BITS Goa - Tech Week** _(October 2021)_
+    <br> Topic: Bio-Inspired Robot Swarms
+
+1. **BITS Goa Thesis Talks** _(Robotics)_ _(Tech Week - 2021)_ _(October 2021)_
+    <br> Topic: (1) Thesis on Underwater Robotics at Autonomous Robots Lab, NTNU Norway and (2) Applying for an undergraduate thesis
+
+1. **Talks for the Robotics Club** _(2018 & 2019)_
     <br> Pre-induction lectures, Orientations, etc. on different topics in robotics
 
 <br/>
