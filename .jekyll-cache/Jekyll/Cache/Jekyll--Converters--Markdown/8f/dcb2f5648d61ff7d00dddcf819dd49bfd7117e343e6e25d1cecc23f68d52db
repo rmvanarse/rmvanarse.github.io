@@ -1,0 +1,22 @@
+I"<p>Signature verification involves distinguishing between authentic signatures and forgeries. Inspired from facial recognition networks, a one-shot learning convolutional neural network was designed to detect forgeries of a given signature.</p>
+
+<p>A Siamese architecture was developed using PyTorch and was trained using triplet loss. A dataset containing several authentic signatures &amp; forged signatures of around 2600 people <em>(around 75,000 samples)</em> was used. The final network converts the input signatures to a lower-dimensional embedding vector for comparison. It is able to identify forgeries even with only one or two true signatures for reference.</p>
+
+<figure class=" ">
+  
+    
+      <a href="/assets/images/projects/ps1_dp.png">
+          <img src="/assets/images/projects/ps1_dp.png" alt="placeholder image 1" />
+      </a>
+    
+  
+  
+    <figcaption><strong>Training:</strong> Training the Siamese architecture using triplet loss, using a pivot image, true image and false image as inputs.
+</figcaption>
+  
+</figure>
+
+<p>This project was done in Summer 2019 as an internship project (as a requirement of the ‘Practice School’ programme of BITS Goa) for Bank of Maharashtra.</p>
+
+<p>[<a href="http://github.com/rmvanarse/ps1_project"><strong>GitHub Repo</strong></a>]</p>
+:ET
