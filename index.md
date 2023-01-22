@@ -13,13 +13,12 @@ author_profile: true
 ---
 # About Me
 ---
-I am a Research Assciate at the **Biorobotics Lab** at **Carnegie Mellon University** with a Bachelor's in Engineering (B.E.) in **Computer Science** from **BITS Pilani Goa**.
 
-I find the fields of Autonomous Robotics, Computer Vision and AI fascinating. For the past four years, I have been working in several projects related to _Perception in Robots, Simultaneous Localization & Mapping (SLAM), Path Planning, Classical & DL-based computer vision_ and _Multi-robot systems_. Furthermore, I am also interested in working on research projects in semantic scene understanding for robots, Perception-aware planning in robots and space robotics.
+I am a roboticist with a passion for autonomous navigation, computer vision and AI. My research interests are centered around **perception and path planning for mobile robots**, specifically in challenging and unstructured environments. This includes topics such as sensor fusion, simultaneous localization and mapping (SLAM), perception-aware planning, and semantic scene understanding. I am constantly seeking to learn more and develop innovative solutions in these areas, with the ultimate goal of applying them to real-world scenarios such as space exploration and search & rescue.
 
-I have previously worked as an Undergraduate Researcher in the **Autonomous Robots Lab, NTNU** under Prof. Kostas Alexis and as an intern at **Google Summer of Code** with the **Centre for Research in Open Source Software, UC Santa Cruz** & the **Autonomous Systems Lab** of UCSC.
-I was formerly the **Sub-Coordinator** of the **Electronics & Robotics Club** of BITS Goa. I am currenty working under Dr. Matt Travers and Dr. Howie Choset at CMU.
+Throughout my career, I have had the opportunity to work on various research projects in this field. I have worked as a Perception Engineer at **IAM Robotics** and as a Research Associate at the **Biorobotics Lab** in the Robotics Institute at **Carnegie Mellon University**. I have also gained valuable experience during my internships at **Open Robotics** and the **Autonomous Systems Lab at the UC Santa Cruz**. I did my undergraduate thesis was on Visual-Inertial SLAM for Underwater Robots at the **Autonomous Robots Lab in University of Nevada, Reno**. I also worked on motion planning for indoor robots, robot swarms and modular robots during my undergraduate studies at **BITS Goa (India)**, where I acquired a degree in Computer Science and designed & taught several courses in Robotics. 
 
+I am always eager to continue learning and expanding my knowledge in the field of robotics and looking for new opportunities to contribute to the robotics community. 
 <br/>
 <hr style="border:1px solid gray"/>
 
