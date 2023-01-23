@@ -1,4 +1,4 @@
-I"‡
+I"é
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -7,7 +7,7 @@
         
         <a class="site-title" href="/">
           Rishikesh Vanarse
-          <span class="site-subtitle">Computer Science, BITS Pilani Goa</span>
+          <span class="site-subtitle">Perception Engineer II, IAM Robotics</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/">Home</a>
@@ -18,7 +18,9 @@
             </li><li class="masthead__menu-item">
               <a href="/blog/">Blog</a>
             </li><li class="masthead__menu-item">
-              <a href="https://drive.google.com/file/d/1XRPRo3xVD5GGetBr3gqNPks20icHLIlV/view?usp=sharing">CV</a>
+              <a href="/events/">Updates</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://drive.google.com/file/d/1BNTfNdSAt6DxD-eZrn4uHl6Z7fqy13a5/view?usp=sharing">CV</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
