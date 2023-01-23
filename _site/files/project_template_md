@@ -143,7 +143,7 @@
         
         <a class="site-title" href="/">
           Rishikesh Vanarse
-          <span class="site-subtitle">Research Associate, CMU Biorobotics Lab</span>
+          <span class="site-subtitle">Perception Engineer II, IAM Robotics</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/">Home</a>
@@ -447,7 +447,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 Rishikesh Vanarse. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2023 Rishikesh Vanarse. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
