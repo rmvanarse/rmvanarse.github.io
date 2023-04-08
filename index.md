@@ -22,4 +22,11 @@ I am always eager to continue learning and expanding my knowledge in the field o
 <br/>
 <hr style="border:1px solid gray"/>
 
-![ERC](assets/images/logos/all_logos_2021.png)
+Companies, research labs and other organizations that I have worked with
+![orgs](assets/images/logos/all_orgs_2023.png)
+
+<br/>
+<hr style="border:1px solid gray"/>
+
+Universities that have supported my projects
+![unis](assets/images/logos/unis_2023.png)

@@ -1,4 +1,4 @@
-I"0<h1 id="about-me">About Me</h1>
+I"<h1 id="about-me">About Me</h1>
 <hr />
 
 <p>I am a roboticist with a passion for autonomous navigation, computer vision and AI. My research interests are centered around <strong>perception and path planning for mobile robots</strong>, specifically in challenging and unstructured environments. This includes topics such as sensor fusion, simultaneous localization and mapping (SLAM), perception-aware planning, and semantic scene understanding. I am constantly seeking to learn more and develop innovative solutions in these areas, with the ultimate goal of applying them to real-world scenarios such as space exploration and search &amp; rescue.</p>
@@ -9,5 +9,12 @@
 <br /></p>
 <hr style="border:1px solid gray" />
 
-<p><img src="assets/images/logos/all_logos_2021.png" alt="ERC" /></p>
+<p>Companies, research labs and other organizations that I have worked with
+<img src="assets/images/logos/all_orgs_2023.png" alt="orgs" /></p>
+
+<p><br /></p>
+<hr style="border:1px solid gray" />
+
+<p>Universities that have supported my projects
+<img src="assets/images/logos/unis_2023.png" alt="unis" /></p>
 :ET
