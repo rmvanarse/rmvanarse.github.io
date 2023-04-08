@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Rishikesh Vanarse"
 title_separator          : "-"
-subtitle                 : "Perception Engineer II, IAM Robotics"
+subtitle                 : "Computer Vision Engineer, KEF Robotics"
 name                     : "Rishikesh Vanarse"
 description              : "Work in progress... Please come back later :)"
 url                      : # "https://rmvanarse.github.io"
@@ -98,7 +98,7 @@ analytics:
 author:
   name             : "Rishikesh Vanarse"
   avatar           : "/assets/images/dp_ah9.jpeg"
-  bio              : "**Perception Engineer II**<br>_IAM Robotics_"
+  bio              : "**Computer Vision Engineer**<br>_KEF Robotics_"
   location         : "Pittsburgh, Pennsylvania"
   email            : "r****@gmail.com"
   links:
