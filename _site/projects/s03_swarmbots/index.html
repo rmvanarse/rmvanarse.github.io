@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Swarmbots - Rishikesh Vanarse</title>
+<!-- begin _includes/seo.html --><title>Bio-inspired Robot Swarms - Rishikesh Vanarse</title>
 <meta name="description" content="Automation of a swarm of decentralized mobile robots that perform tasks through swarm intelligence algorithms">
 
 
@@ -22,7 +22,7 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Rishikesh Vanarse">
-<meta property="og:title" content="Swarmbots">
+<meta property="og:title" content="Bio-inspired Robot Swarms">
 <meta property="og:url" content="/projects/s03_swarmbots/">
 
 
@@ -35,7 +35,7 @@
 
 
   <meta name="twitter:site" content="@aremvy98">
-  <meta name="twitter:title" content="Swarmbots">
+  <meta name="twitter:title" content="Bio-inspired Robot Swarms">
   <meta name="twitter:description" content="Automation of a swarm of decentralized mobile robots that perform tasks through swarm intelligence algorithms">
   <meta name="twitter:url" content="/projects/s03_swarmbots/">
 
@@ -50,7 +50,7 @@
 
 
 
-  <meta property="article:published_time" content="2023-04-08T12:09:46-04:00">
+  <meta property="article:published_time" content="2024-05-18T14:47:49-04:00">
 
 
 
@@ -312,15 +312,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Swarmbots">
+    <meta itemprop="headline" content="Bio-inspired Robot Swarms">
     <meta itemprop="description" content="Automation of a swarm of decentralized mobile robots that perform tasks through swarm intelligence algorithms">
-    <!--<meta itemprop="datePublished" content="2023-04-08T12:09:46-04:00">
+    <!--<meta itemprop="datePublished" content="2024-05-18T14:47:49-04:00">
     -->
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Swarmbots
+          <h1 id="page-title" class="page__title" itemprop="headline">Bio-inspired Robot Swarms
 </h1>
           
 
@@ -336,7 +336,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          less than 1 minute read
+          1 minute read
         
       </span>
     
@@ -348,41 +348,53 @@
 
       <section class="page__content" itemprop="text">
         
-        <p><strong>Swarmbots</strong> is a project on development of algorithms for automation of a swarm of autonomous mobile robots. The robots perform various tasks through ‘collective decision making’.</p>
-
-<p>Multi-robot systems become increasingly complex with increase in the numbre of robots. In this project, the system is entirely decentralized. Each robot knows only its own position and the position of its neighbours. Furthermore, the bots do not communicate with each other and take their own decisions, such that the emergent behaviour of the entire swarm is a useful task.</p>
+        <p><strong>Swarmbots</strong> is a project on development of algorithms for automation of a swarm of autonomous mobile robots. The robots perform various tasks through ‘collective decision making’.
+Multi-robot systems become increasingly complex with an increase in the number of robots. In this project, a swarm of robots is entirely decentralized and each robot knows only the approximate relative position of its neighbours. Furthermore, the bots do not rely on inter-robot communication, localization or memory, and possess only minimal local sensing &amp; processing capabilities. They perform tasks collectively through ‘swarm intelligence’ algorithms.</p>
 
 <figure class="third ">
   
     
-      <a href="/assets/images/projects/swarm_line2.gif">
-          <img src="/assets/images/projects/swarm_line2.gif" alt="placeholder image 1" />
+      <a href="/assets/images/projects/area_cov.gif">
+          <img src="/assets/images/projects/area_cov.gif" alt="placeholder image 1" />
       </a>
     
   
     
-      <a href="/assets/images/projects/swarm_circle2.gif">
-          <img src="/assets/images/projects/swarm_circle2.gif" alt="placeholder image 2" />
+      <a href="/assets/images/projects/contam_remov.gif">
+          <img src="/assets/images/projects/contam_remov.gif" alt="placeholder image 2" />
       </a>
     
   
     
-      <a href="/assets/images/projects/swarm_area_cvg2.gif">
-          <img src="/assets/images/projects/swarm_area_cvg2.gif" alt="placeholder image 3" />
+      <a href="/assets/images/projects/foraging.gif">
+          <img src="/assets/images/projects/foraging.gif" alt="placeholder image 3" />
       </a>
     
   
   
-    <figcaption><strong>Swarmbots:</strong> All tasks are decentralized, i.e. each robot takes its own decisions. The images show the emergent collective behaviours of <strong>Line Formation</strong> <em>(Left)</em>, <strong>Cirle Formation</strong> <em>(Centre)</em> and <strong>Area-coverage</strong> <em>(Right)</em>
+    <figcaption><strong>Swarmbots:</strong> All tasks are decentralized, i.e. each robot takes its own decisions. The images show the emergent collective behaviours of <strong>Area coverage/ exploration</strong> <em>(Left)</em>, <strong>Contamination removal</strong> <em>(Centre)</em> and <strong>Foraging</strong> <em>(Right)</em>
 </figcaption>
   
 </figure>
 
 <p>The project attempts to break down complex coordinated tasks into simpler sub-tasks such as <strong>Agregation</strong>, <strong>Line-formation</strong>, <strong>Shape-formation</strong>, <strong>Area-Coverage</strong>, <strong>Flocking</strong>, <strong>Following</strong>, etc. The project was started in 2019 with RasPi-controlled differential drive robots, and was moved to simulations in 2020.</p>
 
-<p><em><strong>Role in  Project:</strong> Project Lead, Algorithms, Simulation</em></p>
+<p>The project implemented the following tasks:</p>
+<ol>
+  <li><strong>Area Search:</strong> The robots disperse and collectively explore an area.</li>
+  <li><strong>Foraging/ Resource Gathering:</strong> The robots search for &amp; collectively transport resources to a ‘nest’ at an unknown location.</li>
+  <li><strong>Contamination Removal:</strong> The robots create a perimeter around gradually growing contaminations and neutralize them</li>
+</ol>
 
-<p>[<a href="http://github.com/rmvanarse/swarmbots"><strong>GitHub Repo</strong></a>]</p>
+<p>These tasks were implemented weighted combinations of basic swarm-behaviours such as aggregation, dispersion, exploration, line formation, shape formation, surrounding items and consensus.</p>
+
+<p><em><strong>Role in  Project:</strong> Project Lead. Developed the Algorithms, Simulation</em></p>
+
+<p>[<a href="http://github.com/rmvanarse/swarm_tasks"><strong>GitHub Repo</strong></a>]</p>
+
+<p>[<a href="https://www.youtube.com/watch?v=HZjE_zC4Yek&amp;ab_channel=ElectronicsandRoboticsClub%2CBITSGoa"><strong>Talk YouTube link</strong></a>]</p>
+
+<p>[<a href="">Nature Scientific Reports submission</a>]</p>
 
         
       </section>
@@ -393,7 +405,7 @@
 
 
         <!-- 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2023-04-08T12:09:46-04:00">April 8, 2023</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2024-05-18T14:47:49-04:00">May 18, 2024</time></p>
 
 -->
       </footer>
@@ -403,7 +415,7 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?via=aremvy98&text=Swarmbots%20%2Fprojects%2Fs03_swarmbots%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?via=aremvy98&text=Bio-inspired+Robot+Swarms%20%2Fprojects%2Fs03_swarmbots%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
   <a href="https://www.facebook.com/sharer/sharer.php?u=%2Fprojects%2Fs03_swarmbots%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
@@ -414,7 +426,7 @@
       <!-- 
   <nav class="pagination">
     
-      <a href="/projects/s02_trotbot/" class="pagination--pager" title="Trotbot
+      <a href="/projects/s02_trotbot/" class="pagination--pager" title="Trotbot: Autonomous Delivery Robot
 ">Previous</a>
     
     
@@ -471,7 +483,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2023 Rishikesh Vanarse. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2024 Rishikesh Vanarse. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

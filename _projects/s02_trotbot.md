@@ -1,5 +1,5 @@
 ---
-title: "Trotbot"
+title: "Trotbot: Autonomous Delivery Robot"
 excerpt: "_An autonomous delivery robot (and a mobile ground robotics research platform) built for indoor environments_"
 header:
   teaser: /assets/images/projects/trotbot_dp.jpeg
