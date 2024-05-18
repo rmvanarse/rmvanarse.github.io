@@ -1,0 +1,37 @@
+I"�<p>This project aimed at developing an autonomous robotic system for recycling of e-waste, particularly phones, tablets and watches. This was done as a part of the <strong>Biorobotics lab</strong> of <strong>Carnegie Mellon University Robotics Institute</strong>, in collaboration with <strong>Apple</strong>. The work involved developing an extension to apples ‘Daisy’ and ‘Dave’ robots that autonomously disassembles electronic devices.</p>
+
+<figure class="third ">
+  
+    
+      <a href="/assets/images/projects/daisy1.jpg">
+          <img src="/assets/images/projects/daisy1.jpg" alt="placeholder image 1" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/projects/daisy2.png">
+          <img src="/assets/images/projects/daisy2.png" alt="placeholder image 2" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/projects/daisy3.png">
+          <img src="/assets/images/projects/daisy3.png" alt="placeholder image 3" />
+      </a>
+    
+  
+  
+    <figcaption>Daisy and Dave robots for disassembling and recycling iPhones
+</figcaption>
+  
+</figure>
+
+<p>The project involved identifying and locating electronic components, such as cameras, screws, speakers, batteries, etc. in phones, tablets and watches. Several novel techniques were developed for synthetic dataset generation for segmentation and classification of RGB and X-ray images. These included methods that used domain randomization, synthetic deformation, slicing of CT-scans, stc. A novel classification algorithm <a href="https://arxiv.org/abs/2209.03509">iCAM</a> was developed and trained using continual learning methods to progressively include new electronic devices. Novel segmentation approaches that rely on cross-attention and contrastive learning were also developed as a part of this effort.</p>
+
+<p>[<a href="https://machinelearning.apple.com/research/rgb-x-classification"><strong>Apple article</strong></a>]</p>
+
+<p>[<a href="https://www.cmu.edu/news/stories/archives/2021/july/device-recycling.html"><strong>Carnegie Mellon article</strong></a>]</p>
+
+<p><em><strong>Role in  Project:</strong> Multimodal classification, semantic understanding of X-ray images, synthetic dataset generation, and designing &amp; implementing the full ROS architecture</em></p>
+
+:ET

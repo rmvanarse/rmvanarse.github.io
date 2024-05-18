@@ -1,0 +1,48 @@
+I"�<p><strong>Swarmbots</strong> is a project on development of algorithms for automation of a swarm of autonomous mobile robots. The robots perform various tasks through ‘collective decision making’.
+Multi-robot systems become increasingly complex with an increase in the number of robots. In this project, a swarm of robots is entirely decentralized and each robot knows only the approximate relative position of its neighbours. Furthermore, the bots do not rely on inter-robot communication, localization or memory, and possess only minimal local sensing &amp; processing capabilities. They perform tasks collectively through ‘swarm intelligence’ algorithms.</p>
+
+<figure class="third ">
+  
+    
+      <a href="/assets/images/projects/area_cov.gif">
+          <img src="/assets/images/projects/area_cov.gif" alt="placeholder image 1" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/projects/contam_remov.gif">
+          <img src="/assets/images/projects/contam_remov.gif" alt="placeholder image 2" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/projects/foraging.gif">
+          <img src="/assets/images/projects/foraging.gif" alt="placeholder image 3" />
+      </a>
+    
+  
+  
+    <figcaption><strong>Swarmbots:</strong> All tasks are decentralized, i.e. each robot takes its own decisions. The images show the emergent collective behaviours of <strong>Area coverage/ exploration</strong> <em>(Left)</em>, <strong>Contamination removal</strong> <em>(Centre)</em> and <strong>Foraging</strong> <em>(Right)</em>
+</figcaption>
+  
+</figure>
+
+<p>The project attempts to break down complex coordinated tasks into simpler sub-tasks such as <strong>Agregation</strong>, <strong>Line-formation</strong>, <strong>Shape-formation</strong>, <strong>Area-Coverage</strong>, <strong>Flocking</strong>, <strong>Following</strong>, etc. The project was started in 2019 with RasPi-controlled differential drive robots, and was moved to simulations in 2020.</p>
+
+<p>The project implemented the following tasks:</p>
+<ol>
+  <li><strong>Area Search:</strong> The robots disperse and collectively explore an area.</li>
+  <li><strong>Foraging/ Resource Gathering:</strong> The robots search for &amp; collectively transport resources to a ‘nest’ at an unknown location.</li>
+  <li><strong>Contamination Removal:</strong> The robots create a perimeter around gradually growing contaminations and neutralize them</li>
+</ol>
+
+<p>These tasks were implemented weighted combinations of basic swarm-behaviours such as aggregation, dispersion, exploration, line formation, shape formation, surrounding items and consensus.</p>
+
+<p><em><strong>Role in  Project:</strong> Project Lead. Developed the Algorithms, Simulation</em></p>
+
+<p>[<a href="http://github.com/rmvanarse/swarm_tasks"><strong>GitHub Repo</strong></a>]</p>
+
+<p>[<a href="https://www.youtube.com/watch?v=HZjE_zC4Yek&amp;ab_channel=ElectronicsandRoboticsClub%2CBITSGoa"><strong>Talk YouTube link</strong></a>]</p>
+
+<p>[<a href="">Nature Scientific Reports submission</a>]</p>
+:ET

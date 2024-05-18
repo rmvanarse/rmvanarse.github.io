@@ -1,6 +1,6 @@
 ---
-title: "Multispectral Image Registration"
-excerpt: "_Alignment of drone images taken from multiple spectral cameras for precision agriculture applications_"
+title: "Multispectral Drone-imagery for Agriculture"
+excerpt: "_Sub-pixel alignment of drone images taken from multiple spectral cameras for precision agriculture applications_"
 header:
   teaser: /assets/images/projects/farm.png
 gallery:
